@@ -19,3 +19,11 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+first_name = input('Enter first name: \n')
+
+occasion = input('Enter the occasion: \n')
+
+message = input('Enter the custom message: \n')
+
+print(f'Dear {first_name}, {occasion} {message}')
