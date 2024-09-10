@@ -21,3 +21,11 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+first_name = input('Enter hero\'s first name: \n')
+
+setting = input('Enter the story\'s setting:\n')
+
+object_found = input('Enter the object they found: \n')
+
+print(f'{first_name}, {setting}, {object_found}')
